@@ -1,0 +1,52 @@
+/* basic styles for black background and crosshair cursor */
+
+body {
+    background: #000 !important;
+    margin: 0;
+    overflow: hidden !important;
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat', Sans-Serif;
+    font-size: 1.5rem
+}
+
+#year {
+    color: rgba(211, 136, 23, 0.678);
+}
+
+#content {
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 2.5rem;
+}
+
+#footer {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 400px) {
+    #content {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #content {
+        font-size: 1.5rem;
+    }
+}
